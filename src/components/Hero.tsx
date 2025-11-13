@@ -122,8 +122,8 @@ const Hero: React.FC = () => {
 
           <p className="text-base md:text-lg text-blue-100/80 mb-12 max-w-2xl mx-auto">
             Sou apaixonado por tecnologia e criação de soluções eficientes.
-            Ao futuro quero trabalhar e ser um futuro desenvolvedor{" "}
-            <span className="text-blue-400 font-medium">Full-Stack</span>,
+            Futuramente desejo trabalhar sendo um desenvolvedor{" "}
+            <span className="text-blue-400 font-medium">Full-Stack,</span>,
             desenvolvendo aplicações modernas e performáticas para web.
           </p>
 
