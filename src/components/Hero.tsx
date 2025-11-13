@@ -91,7 +91,7 @@ const Hero: React.FC = () => {
       {/* ===== HERO PRINCIPAL ===== */}
       <section
         id="hero"
-        className="min-h-screen flex flex-col items-center justify-center relative px-1 pt-24 bg-gradient-to-b from-blue-950 via-blue-900 to-blue-800 text-white overflow-hidden"
+        className="md-h:10 min-h-screen flex flex-col items-center justify-center relative px-1 pt-24 bg-gradient-to-b from-blue-950 via-blue-900 to-blue-800 text-white overflow-hidden"
       >
         {/* Partículas de fundo */}
         <Particles />
@@ -150,7 +150,7 @@ const Hero: React.FC = () => {
         {/* Ícone de rolagem */}
         <div
           onClick={() => scrollToSection("sobre")}
-          className="absolute bottom-4 animate-bounce cursor-pointer text-blue-400 hover:text-blue-300 transition-colors z-10"
+          className="mt-12 animate-bounce cursor-pointer text-blue-400 hover:text-blue-300 transition-colors z-10"
         >
           <ArrowDown className="w-8 h-8 md:w-10 md:h-10" />
         </div>

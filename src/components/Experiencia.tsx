@@ -6,7 +6,7 @@ const Experiencia = () => {
         {/* ===== EXPERIÊNCIA PROFISSIONAL ===== */}
         <section
           id="portfolio"
-          className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-300 to-background py-20 px-8 relative overflow-x-hidden"
+          className="min-h-screen items-center bg-gradient-to-b from-blue-300 to-background py-20 px-2 overflow-x-hidden"
         >
           <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
             {/* Texto à esquerda */}
@@ -27,7 +27,7 @@ const Experiencia = () => {
 
             {/* Vídeo à direita */}
             <div className="flex justify-center md:justify-end">
-              <div className="w-96 h-100 rounded-2xl overflow-hidden shadow-2xl border-2 border-blue-500 bg-gradient-to-br from-blue-100 to-blue-200 transition-transform duration-500 hover:scale-125">
+              <div className="w-96 h-100 rounded-2xl overflow-hidden shadow-2xl border-2 border-blue-500 bg-gradient-to-br from-blue-100 to-blue-200 transition-transform duration-500 xl:hover:scale-110 hover:scale-105">
                 <video
                   src="/trab.mp4"
                   autoPlay
