@@ -124,7 +124,7 @@ const Hero: React.FC = () => {
             Sou apaixonado por tecnologia e criação de soluções eficientes.
             Desejo Futuramente trabalhar sendo um desenvolvedor{" "}
             <span className="text-blue-400 font-medium">Full-Stack, </span>
-            desenvolvendo aplicações modernas e performáticas para web.
+             desenvolvendo aplicações modernas e performáticas para web.
           </p>
 
           {/* Botões de ação */}
