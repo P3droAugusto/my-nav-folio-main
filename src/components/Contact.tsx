@@ -50,12 +50,12 @@ const Contact = () => {
 
             <div className="flex items-center gap-4">
               <Phone className="text-blue-600" />
-              <p> +55 75 99852-7133</p>
+              <p> +55 75 99852-7133 </p>
             </div>
 
             <div className="flex items-center gap-4">
               <Mail className="text-blue-600" />
-              <p>pedrobaha901@gmail.com</p>
+              <p>pedrobahia901@gmail.com</p>
             </div>
 
             {/* Ícones sociais */}
