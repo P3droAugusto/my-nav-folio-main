@@ -20,7 +20,7 @@ const Contact = () => {
         {/* Cabeçalho */}
         <div className="text-center lg:text-left mb-11">
           <p className="font-serif text-base text-blue-200 mb-2 tracking-wide">
-            Pedro Augusto
+            Pedro AugustoooOOOOO
           </p>
           <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl font-light leading-tight text-blue-200">
             CONTATO

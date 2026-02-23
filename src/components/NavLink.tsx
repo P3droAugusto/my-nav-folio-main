@@ -1,18 +1,6 @@
 import { NavLink as RouterNavLink, NavLinkProps } from "react-router-dom";
 import { forwardRef } from "react";
 import { cn } from "@/lib/utils";
-import HeaderHero from "@/components/Hero";
-import Experience from "@/components/Experience";
-
-export default function Home() {
-  return (
-    <>
-      <HeaderHero />
-      <Experience />
-      {/* Outras seções */}
-    </>
-  );
-}
 
 
 interface NavLinkCompatProps extends Omit<NavLinkProps, "className"> {
