@@ -94,7 +94,9 @@ const Hero: React.FC = () => {
         className="md-h:10 min-h-screen flex flex-col items-center justify-center relative px-1 pt-24 bg-gradient-to-b from-blue-950 via-blue-900 to-blue-800 text-white overflow-hidden"
       >
         {/* Partículas de fundo */}
-        <Particles />
+        <div className="absolute inset-0 -z-10">
+           <Particles />
+        </div>
 
         {/* Imagem de Perfil */}
         <div className="relative z-10 w-40 h-40 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl border-4 border-blue-500 mb-8 bg-blue-900/40 backdrop-blur-sm transition-transform duration-500 hover:scale-125">
