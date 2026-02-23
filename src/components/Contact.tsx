@@ -23,7 +23,7 @@ const Contact = () => {
             Pedro Augusto
           </p>
           <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl font-light leading-tight text-blue-200">
-            CONTATO
+            CONTATOOOOOOO
           </h2>
           <div className="w-24 h-[3px] bg-blue-200 mt-4 mx-auto lg:mx-0 rounded-full" />
         </div>
