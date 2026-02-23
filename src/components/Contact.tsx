@@ -15,7 +15,9 @@ const Contact = () => {
       className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-950 via-blue-950 py-20 px-8 relative"
     >
       {/* Partículas de fundo */}
-       <Particles />
+       <div className="absolute inset-0 -z-10">
+          <Particles />
+        </div>
       <div className="max-w-7xl mx-auto w-full">
         {/* Cabeçalho */}
         <div className="text-center lg:text-left mb-11">
